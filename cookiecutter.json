@@ -1,6 +1,6 @@
 {
   "project_name": "my streamlit app",
-  "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "author_name": "JOSE SANCHEZ",
   "description": "A short description of the project.",
   "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
